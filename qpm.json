@@ -1,38 +1,15 @@
 {
-  "config": {
-    "info": {
-      "name": "Test",
-      "id": "Test",
-      "version": "0.1.0",
-      "coverImage": "cover.png",
-      "author": "",
-      "porter": "",
-      "license": "MIT",
-      "includeDirs": [
-        "include"
-      ]
-    },
-    "dependencies": [
-      {
-        "id": "beatsaber-hook",
-        "version": "^5.0.0"
-      },
-      {
-        "id": "codegen",
-        "version": "^0.29.0"
-      },
-      {
-        "id": "custom-types",
-        "version": "^0.17.0"
-      },
-      {
-        "id": "questui",
-        "version": "^0.18.6"
-      },
-      {
-        "id": "bsml",
-        "version": "^0.21.5"
-      }
-    ]
+  "name": "Test",
+  "version": "1.0.0",
+  "id": "test",
+  "author": "umt007",
+  "description": "Test mod",
+  "dependencies": {
+    "beatsaber-hook": "^5.1.0",
+    "codegen": "^0.42.0",
+    "custom-types": "^0.17.0",
+    "modloader": "^0.3.0",
+    "questui": "^0.27.0",
+    "bsml": "^0.4.0"
   }
 }
